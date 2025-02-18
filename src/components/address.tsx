@@ -49,7 +49,7 @@ const Address = ({ goBack, app }: Props) => {
       <p
         className={`text-3xl`}
       >
-        cho anh biết toạ độ của giao điểm 2 đường tròn này
+        đố em biết giao điểm 2 đường tròn này là gì
       </p>
       <div
           className={`w-[40%] flex flex-col border-[2px] border-gray-900 h-fit`}
