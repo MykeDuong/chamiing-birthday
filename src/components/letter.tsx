@@ -23,18 +23,18 @@ const Letter = ({ goBack }: Props) => {
       >
         <div className={`flex flex-row pb-10 gap-2`}>
           <p className={`text-3xl font-semibold`} > Title: </p>
-          <p className={`text-3xl`}>Chúc mừng sinh nhật bé Trà My</p>
+          <p className={`text-3xl`}>Chúc mừng sinh nhật bông hoa xinh nhứt</p>
         </div>
         <div className={`flex flex-row pb-10 gap-2`}>
           <p className={`text-3xl font-semibold`}>From: </p>
-          <p className={`text-3xl`}>Anh Phong</p>
+          <p className={`text-3xl`}>người lạ tốt bụng</p>
         </div>
         <p className={`text-3xl pb-10`}>
           Em luôn khỏe mạnh và lan tỏa năng lượng tích cực đến mọi người xung quanh. Anh cảm nhận rằng, nụ cười vô tri của em là ánh sáng rực rỡ, mang lại niềm vui cho mọi người xung quanh em (và cả anh nữa 🤓)
         </p>
         <div className={`w-full flex justify-end`}>
           <p className={`text-3xl`}>
-            - Anh Phong -
+            - hdhp -
           </p>
         </div>
       </div>
