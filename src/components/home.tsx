@@ -32,7 +32,7 @@ const Home = ({ toLetter, toAddress }: Props) => {
           className={`w-[60%]`}
         >
           <p className={`text-4xl`}>
-            Từ anh Phong đẹp trai vl vcl
+            Từ người lạ tốt bụng
           </p>
           <h1 className={`text-5xl pt-10`}>
             Chúc mừng sinh nhật
@@ -45,7 +45,7 @@ const Home = ({ toLetter, toAddress }: Props) => {
               &hearts;
             </h1>
           </div>
-          <p className={`text-4xl pt-10`}>Nhân dịp sinh nhật My, and có một xíu quà muốn tặng bé</p>
+          <p className={`text-4xl pt-10`}>Nhân dịp sinh nhật bông hoa đẹp nhất, and có một xíu quà muốn tặng em bé</p>
           <div className={`h-20`} />
           <div className={`flex flex-row gap-10`}>
             <button className={`px-10 py-4 bg-gray-800 text-white text-4xl rounded-lg`} onClickCapture={toLetter}>
