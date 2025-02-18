@@ -45,7 +45,7 @@ const Home = ({ toLetter, toAddress }: Props) => {
               &hearts;
             </h1>
           </div>
-          <p className={`text-4xl pt-10`}>Nhân dịp sinh nhật My, and có một xíu quà muốn tặng bé &#xe112;</p>
+          <p className={`text-4xl pt-10`}>Nhân dịp sinh nhật My, and có một xíu quà muốn tặng bé</p>
           <div className={`h-20`} />
           <div className={`flex flex-row gap-10`}>
             <button className={`px-10 py-4 bg-gray-800 text-white text-4xl rounded-lg`} onClickCapture={toLetter}>
