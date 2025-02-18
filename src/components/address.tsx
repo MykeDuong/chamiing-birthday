@@ -46,7 +46,7 @@ const Address = ({ goBack, app }: Props) => {
       <p
         className={`text-3xl`}
       >
-        Cho anh xin địa chỉ nha, để anh gửi quà cho bé
+        cho anh biết toạ độ của giao điểm 2 đường tròn này
       </p>
       <div className={`h-8`} />
       <input
@@ -61,7 +61,7 @@ const Address = ({ goBack, app }: Props) => {
         </button>
         : status === Status.Sending ?
           <p className={`text-3xl`}>...</p> :
-          status === Status.Sent ? <p className={`text-3xl`}>Anh xin nha :D</p> : <p className={`text-3xl`}>Thằng làm app ngoo vl...Có gì thử lại giúp anh nha</p>
+          status === Status.Sent ? <p className={`text-3xl`}>được rùi ngày mai sẽ có một chú shipper tặng em bó hoa xinh nhì :D</p> : <p className={`text-3xl`}>vl unlucky thử lại hộ anhhh</p>
       }
     </div>
   )
