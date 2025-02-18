@@ -4,6 +4,9 @@ import { useState } from "react"
 import { collection, addDoc } from "firebase/firestore";
 import { getFirestore } from "firebase/firestore";
 
+import Image from "next/image"
+import diachiimage from '../../public/diachi.jpeg'
+
 interface Props {
   goBack: () => void
   app: any
@@ -48,6 +51,15 @@ const Address = ({ goBack, app }: Props) => {
       >
         cho anh biết toạ độ của giao điểm 2 đường tròn này
       </p>
+      <div
+          className={`w-[40%] flex flex-col border-[2px] border-gray-900 h-fit`}
+        >
+          <Image
+            className="object-cover aspect-[3/4] border-gray-500"
+            src={diachiimage}
+            alt="diachi's image"
+          />
+        </div>
       <div className={`h-8`} />
       <input
         className={`bg-transparent border-b border-slate-400 caret-slate-400 text-slate-700 text-3xl font-raleway outline-none w-full`}
