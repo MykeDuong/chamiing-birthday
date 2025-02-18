@@ -16,7 +16,7 @@ const Home = ({ toLetter, toAddress }: Props) => {
       </h1>
       <div className={`h-20`} />
       <div
-        className={`flex flex-row w-full gap-40 overflow-y-hidden`}
+        className={`flex flex-row w-full gap-40`}
       >
         <div
           className={`w-[40%] flex flex-col border-[2px] border-gray-900 h-fit`}
