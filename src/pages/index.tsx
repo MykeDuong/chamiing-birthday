@@ -40,13 +40,6 @@ const Home = () => {
             <Letter goBack={() => setCurrentContent(Content.Home)} /> :
             <Address goBack={() => setCurrentContent(Content.Home)} app={app} />
       }
-      <div
-        className={`absolute bottom-[-200px] px-60 w-screen flex flex-row gap-20 items-start`}
-      >
-        <div className={`w-1/4 h-[2px] bg-gray-900`} />
-        <div className={`w-1/4 aspect-square border-[40px] border-gray-900 rounded-[50%]`} />
-        <div className={`w-1/2 h-[2px] bg-gray-900`} />
-      </div>
     </div >
   );
 }
