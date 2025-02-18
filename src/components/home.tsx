@@ -32,7 +32,7 @@ const Home = ({ toLetter, toAddress }: Props) => {
           className={`w-[60%]`}
         >
           <p className={`text-4xl`}>
-            Từ anh Phong đẹp trai vl vl vcl
+            Từ anh Phong đẹp trai vl vcl
           </p>
           <h1 className={`text-5xl pt-10`}>
             Chúc mừng sinh nhật
