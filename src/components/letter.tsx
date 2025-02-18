@@ -13,7 +13,7 @@ const Letter = ({ goBack }: Props) => {
       <div className={`h-20`} />
       <button
         className={`text-3xl text-gray-500`}
-        onClick={goBack}
+        onClickCapture={goBack}
       >
         &larr; Quay lại
       </button>

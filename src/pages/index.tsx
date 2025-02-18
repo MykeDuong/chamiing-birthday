@@ -24,12 +24,12 @@ const Home = () => {
   return (
     <div
       className={`
-        h-screen min-h-screen w-screen relative font-fraunces
+        min-h-screen h-fit w-screen relative font-fraunces overflow-y-hidden
         bg-[linear-gradient(152deg,_#bce5e6,_#fec1bc)]
       `}
     >
-      <div className="w-[2px] absolute h-screen left-20 bg-gray-500" />
-      <div className="w-[2px] absolute h-screen right-20 bg-gray-500" />
+      <div className="w-[2px] absolute h-full left-20 bg-gray-500" />
+      <div className="w-[2px] absolute h-full right-20 bg-gray-500" />
       {
         currentContent === Content.Home ?
           <HomeContent
@@ -41,7 +41,7 @@ const Home = () => {
             <Address goBack={() => setCurrentContent(Content.Home)} app={app} />
       }
       <div
-        className={`absolute bottom-[-16rem] px-60 w-screen flex flex-row gap-20 items-start`}
+        className={`absolute bottom-[-200px] px-60 w-screen flex flex-row gap-20 items-start`}
       >
         <div className={`w-1/4 h-[2px] bg-gray-900`} />
         <div className={`w-1/4 aspect-square border-[40px] border-gray-900 rounded-[50%]`} />

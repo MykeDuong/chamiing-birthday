@@ -38,7 +38,7 @@ const Address = ({ goBack, app }: Props) => {
       <div className={`h-20`} />
       <button
         className={`text-3xl text-gray-500`}
-        onClick={goBack}
+        onClickCapture={goBack}
       >
         &larr; Quay lại
       </button>
@@ -56,7 +56,7 @@ const Address = ({ goBack, app }: Props) => {
       />
       <div className={`h-10`} />
       {status === Status.Initial ?
-        <button className={`px-10 py-4 bg-gray-800 text-white text-4xl rounded-lg`} onClick={() => sendToFirestore()}>
+        <button className={`px-10 py-4 bg-gray-800 text-white text-4xl rounded-lg`} onClickCapture={() => sendToFirestore()}>
           Gửi
         </button>
         : status === Status.Sending ?
