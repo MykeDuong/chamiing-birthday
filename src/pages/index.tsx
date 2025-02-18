@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div
       className={`
-        min-h-screen h-fit w-screen relative font-fraunces overflow-y-hidden
+        min-h-screen h-fit w-screen relative font-fraunces overflow-y-hidden overflow-x-hidden
         bg-[linear-gradient(152deg,_#bce5e6,_#fec1bc)]
       `}
     >

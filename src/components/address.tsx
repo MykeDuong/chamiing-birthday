@@ -3,6 +3,9 @@
 import { useState } from "react"
 import { collection, addDoc } from "firebase/firestore";
 import { getFirestore } from "firebase/firestore";
+import Image from "next/image";
+
+import addressImage from '../../public/diachi.jpg'
 
 interface Props {
   goBack: () => void
@@ -49,6 +52,12 @@ const Address = ({ goBack, app }: Props) => {
         đố em biết giao điểm 2 đường tròn này là gì
       </p>
       <div className={`h-8`} />
+      <Image
+        className={`w-1/2`}
+        src={addressImage}
+        alt="diachi"
+      />
+      <div className={`h-8`} />
       <input
         className={`bg-transparent border-b border-slate-400 caret-slate-400 text-slate-700 text-3xl font-raleway outline-none w-full`}
         type="text" id="address" name="Địa chỉ"
@@ -63,6 +72,7 @@ const Address = ({ goBack, app }: Props) => {
           <p className={`text-3xl`}>...</p> :
           status === Status.Sent ? <p className={`text-3xl`}>được rùi ngày mai sẽ có một chú shipper tặng em bó hoa xinh nhì :D</p> : <p className={`text-3xl`}>vl unlucky thử lại hộ anhhh</p>
       }
+      <div className={`h-10`} />
     </div>
   )
 
