@@ -21,10 +21,8 @@ const Home = ({ toLetter, toAddress }: Props) => {
         <div
           className={`w-[40%] flex flex-col border-[2px] border-gray-900 h-fit`}
         >
-          <div className={`h-20 w-full bg-[#d8dfce]`} />
-          <div className={`h-[2px] bg-gray-900`} />
           <Image
-            className="object-cover aspect-square border-gray-500"
+            className="object-cover aspect-[3/4] border-gray-500"
             src={chamiingImage}
             alt="Chamiing's image"
           />
